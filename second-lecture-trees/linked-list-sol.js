@@ -86,8 +86,6 @@ favoriteMiyazakiMovies.addToTail("Spirited Away");
 favoriteMiyazakiMovies.addToTail("My Neighbor Totoro");
 favoriteMiyazakiMovies.addToTail("Ponyo");
 
-console.log(favoriteMiyazakiMovies);
-
 module.exports = {
     Node,
     LinkedList
