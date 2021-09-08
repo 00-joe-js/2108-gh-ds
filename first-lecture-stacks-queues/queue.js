@@ -19,4 +19,4 @@ theLineForSpaceMountain.enqueue("Goofy");
 theLineForSpaceMountain.enqueue("Donald");
 theLineForSpaceMountain.enqueue("Mickey");
 
-console.log(theLineForSpaceMountain.dequeue());
+console.log(theLineForSpaceMountain.dequeue()); // ?

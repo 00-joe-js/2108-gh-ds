@@ -4,14 +4,19 @@ const makeBigRandomNumber = () => {
 
 const usesAll10Digits = (num) => {
 
+    console.log(num);
     const numberAsString = num.toString();
     const stringDigitsFromNumber = numberAsString.split("");
 
-    console.log(stringDigitsFromNumber);
+    const set = new Set();
+
+    stringDigitsFromNumber.forEach(stringDigit => {
+        set.add(stringDigit);
+    });
 
     // Return true or false if all 10 digits (0-9)
     // are found in `num`.
-    return "Not Implemented";
+    return set.size === 10;
 
 };
 
